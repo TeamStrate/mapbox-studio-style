@@ -1,6 +1,7 @@
 _prefs: 
   baselayer: ''
-  saveCenter: false
+  mapid: teamstrate.0aca56f4
+  saveCenter: true
 _properties: 
   bridge: 
     "group-by": layer
@@ -11,10 +12,10 @@ bounds:
   - 180
   - 85
 center: 
-  - 0
-  - 0
-  - 3
-description: ''
+  - -2.7321624755859375
+  - 48.518935329870565
+  - 13
+description: Le style de carte utilisé par Strate
 format: "png8:m=h:c=64"
 interactivity_layer: ''
 layers: 
@@ -45,7 +46,7 @@ layers:
   - contour.label
 maxzoom: 19
 minzoom: 0
-name: Streets
+name: Strate
 source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5"
 styles: 
   - vars.mss

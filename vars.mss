@@ -7,7 +7,7 @@
 // =====================================================================
 
 // Language
-@name: '[name]';
+@name: '';
 
 // set up font sets for various weights and styles
 @sans_lt:           "Open Sans Regular","Arial Unicode MS Regular";
