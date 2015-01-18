@@ -12,9 +12,9 @@ bounds:
   - 180
   - 85
 center: 
-  - -2.7321624755859375
-  - 48.518935329870565
-  - 13
+  - 2.4319
+  - 48.8588
+  - 16
 description: Le style de carte utilisé par Strate
 format: "png8:m=h:c=64"
 interactivity_layer: ''

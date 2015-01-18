@@ -21,7 +21,7 @@
 // LANDUSE & LANDCOVER COLORS
 // =====================================================================
 
-@land:              #E8E0D8;
+@land:              #818A90;
 @water:             #73B6E6;
 @grass:             #E1EBB0;
 @sand:              #F7ECD2;
@@ -53,31 +53,31 @@
 // - fill: for higher zoomlevels, this color is for the road's
 //         inner fill (inline).
 
-@motorway_line:     #fff;
-@motorway_fill:     #fff;
-@motorway_case:     #000;
+@motorway_line:     #7A838A;
+@motorway_fill:     #7A838A;
+@motorway_case:     #7A838A;
 
-@main_line:     #fff;
-@main_fill:     #fff;
-@main_case:     #000;
+@main_line:     #7A838A;
+@main_fill:     #7A838A;
+@main_case:     #7A838A;
 
-@road_line:     #fff;
-@road_fill:     #fff;
-@road_case:     #000;
+@road_line:     #7A838A;
+@road_fill:     #7A838A;
+@road_case:     #7A838A;
 
-@pedestrian_line:   #fff;
+@pedestrian_line:   #7A838A;
 @pedestrian_fill:   @pedestrian_line;
 @pedestrian_case:   @road_case;
 
-@path_line:     #fff;
-@path_fill:     #fff;
+@path_line:     #7A838A;
+@path_fill:     #7A838A;
 @path_case:     @land;
 
-@rail_line:     #aaa;
-@rail_fill:     #fff;
+@rail_line:     #7A838A;
+@rail_fill:     #7A838A;
 @rail_case:     @land;
 
-@bridge_case:   #999;
+@bridge_case:   #7A838A;
 
 @aeroway:       lighten(@industrial,5);
 
@@ -111,8 +111,8 @@
 
 @poi_text:          @poi_text;  
 
-@road_text:         #666;
-@road_halo:         #fff;
+@road_text:         #7A838A;
+@road_halo:         #7A838A;
 
 @other_text:        darken(@land,50)*0.8;
 @other_halo:        @place_halo;
