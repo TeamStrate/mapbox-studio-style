@@ -690,29 +690,4 @@
   }
 }
 
-// ---- One-way Arrows -------------------------------------------------
-
-// These are drawn on the acutal road layers to ensure correct ordering
-// of arrows on bridges & tunnels.
-#road::fill,
-#bridge::fill,
-#tunnel {
-  ['mapnik::geometry_type'=2][zoom>=16][oneway=1] {
-    [class='motorway_link'],
-    [class='main'],
-    [class='street'],
-    [class='street_limited'] {
-      marker-file: url(img/icon/oneway.svg);
-      marker-allow-overlap: true;
-      marker-ignore-placement: true;
-      marker-placement:line;
-      marker-max-error: 0.5;
-      marker-spacing: 200;
-      [zoom=16] { marker-transform: "scale(0.75)"; }
-      [zoom=17] { marker-transform: "scale(1)"; }
-      [zoom>17] { marker-transform: "scale(1.25)"; }
-    }
-  }
-}
-
 /**/

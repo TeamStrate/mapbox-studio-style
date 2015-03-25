@@ -12,9 +12,9 @@ bounds:
   - 180
   - 85
 center: 
-  - 2.4319
-  - 48.8588
-  - 16
+  - 3.3289
+  - 49.5323
+  - 7
 description: Le style de carte utilisé par Strate
 format: "png8:m=h:c=64"
 interactivity_layer: ''
@@ -52,7 +52,5 @@ styles:
   - vars.mss
   - bg.mss
   - road.mss
-  - label.mss
-  - poi_classic.mss
   - terrain.mss
 template: ''
