@@ -21,22 +21,22 @@
 // LANDUSE & LANDCOVER COLORS
 // =====================================================================
 
-@land:              #818A90;
-@water:             #73B6E6;
-@grass:             #E1EBB0;
-@sand:              #F7ECD2;
-@rock:              #D8D7D5;
-@park:              #C8DF9F;
-@cemetery:          #D5DCC2;
-@wood:              #B0C89F;
-@industrial:        #DDDCDC;
-@agriculture:       #EAE0D0;
-@snow:              #EDE5DD;
-@crop:              #E9E5C2;
-@building:          darken(@land, 8);
-@hospital:          #F2E3E1;
-@school:            #F2EAB8;
-@pitch:             #CAE6A9;
+@land:              #fbfbfb;
+@water:             #dcf4fa;
+@grass:             #e7fdca;
+@sand:              #fdfdf3;
+@rock:              #ffffff;
+@park:              #e7fdca;
+@cemetery:          #ffffff;
+@wood:              #e7fdca;
+@industrial:        #ffffff;
+@agriculture:       #e7fdca;
+@snow:              #f1ffff;
+@crop:              #e7fdca;
+@building:          #ffffff;
+@hospital:          #ffffff;
+@school:            #ffffff;
+@pitch:             #e7fdca;
 @sports:            @park;
 
 @parking:           fadeout(@road_fill, 75%);
@@ -53,31 +53,31 @@
 // - fill: for higher zoomlevels, this color is for the road's
 //         inner fill (inline).
 
-@motorway_line:     #7A838A;
-@motorway_fill:     #7A838A;
-@motorway_case:     #7A838A;
+@motorway_line:     #f6f6f6;
+@motorway_fill:     #f6f6f6;
+@motorway_case:     #f6f6f6;
 
-@main_line:     #7A838A;
-@main_fill:     #7A838A;
-@main_case:     #7A838A;
+@main_line:     #f6f6f6;
+@main_fill:     #f6f6f6;
+@main_case:     #f6f6f6;
 
-@road_line:     #7A838A;
-@road_fill:     #7A838A;
-@road_case:     #7A838A;
+@road_line:     #f6f6f6;
+@road_fill:     #f6f6f6;
+@road_case:     #f6f6f6;
 
-@pedestrian_line:   #7A838A;
+@pedestrian_line:   #f6f6f6;
 @pedestrian_fill:   @pedestrian_line;
 @pedestrian_case:   @road_case;
 
-@path_line:     #7A838A;
-@path_fill:     #7A838A;
+@path_line:     #f6f6f6;
+@path_fill:     #f6f6f6;
 @path_case:     @land;
 
-@rail_line:     #7A838A;
-@rail_fill:     #7A838A;
+@rail_line:     #f6f6f6;
+@rail_fill:     #f6f6f6;
 @rail_case:     @land;
 
-@bridge_case:   #7A838A;
+@bridge_case:   #f6f6f6;
 
 @aeroway:       lighten(@industrial,5);
 
