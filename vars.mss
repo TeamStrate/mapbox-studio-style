@@ -53,31 +53,31 @@
 // - fill: for higher zoomlevels, this color is for the road's
 //         inner fill (inline).
 
-@motorway_line:     #f6f6f6;
-@motorway_fill:     #f6f6f6;
+@motorway_line:     #f1f1f1;
+@motorway_fill:     #f1f1f1;
 @motorway_case:     #f6f6f6;
 
-@main_line:     #f6f6f6;
-@main_fill:     #f6f6f6;
-@main_case:     #f6f6f6;
+@main_line:     #f1f1f1;
+@main_fill:     #f1f1f1;
+@main_case:     #f1f1f1;
 
-@road_line:     #f6f6f6;
-@road_fill:     #f6f6f6;
-@road_case:     #f6f6f6;
+@road_line:     #f1f1f1;
+@road_fill:     #f1f1f1;
+@road_case:     #f1f1f1;
 
-@pedestrian_line:   #f6f6f6;
+@pedestrian_line:   #f1f1f1;
 @pedestrian_fill:   @pedestrian_line;
 @pedestrian_case:   @road_case;
 
-@path_line:     #f6f6f6;
-@path_fill:     #f6f6f6;
+@path_line:     #f1f1f1;
+@path_fill:     #f1f1f1;
 @path_case:     @land;
 
-@rail_line:     #f6f6f6;
-@rail_fill:     #f6f6f6;
+@rail_line:     #f1f1f1;
+@rail_fill:     #f1f1f1;
 @rail_case:     @land;
 
-@bridge_case:   #f6f6f6;
+@bridge_case:   #f1f1f1;
 
 @aeroway:       lighten(@industrial,5);
 
